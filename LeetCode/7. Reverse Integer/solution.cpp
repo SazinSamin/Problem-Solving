@@ -7,6 +7,11 @@ public:
         
                         if(x < 0){
                                 sign = 1;
+                            
+                                // here we should we library function abs or if we want our own then we have to use long data type
+                                // for that function.
+                                // https://github.com/SazinSamin/Samin_Reading_Room/blob/main/C/_abs.c          
+                            
                                 x = abs(x);
                         }
         
