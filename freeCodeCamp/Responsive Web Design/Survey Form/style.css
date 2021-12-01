@@ -48,14 +48,65 @@ input{
         border-radius: 3px;
 }
 
+
+#age_input{
+        padding: 6px;
+        margin: 0;
+        display: inline-block;
+        padding-right: 86.5%;
+        border: 2px solid white;
+        border-radius: 3px;
+}
+
+
+
+.radio_label{
+        padding-right: 15px;
+}
+
+select{
+        font-size: 15px;
+        color: rgb(117, 111, 111);
+        padding-right: 70%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        border-radius: 4px;
+        border: 2px solid white;
+}
+
+
+#fed{
+        padding-left: 20px;
+}
+
+
+
+select option{
+        font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 button{
         color: white;
         background-color: rgb(73, 211, 73);
-        padding-right: 70%;
+        padding-right: 85%;
         border-radius: 4px;
         border: 2px solid white;
         padding-top: 10px;
         padding-bottom: 10px;
         font-size: 20px;
         text-align: end;
+        display: flex;
+        margin-top: 15px;
 }
