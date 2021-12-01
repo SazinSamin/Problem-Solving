@@ -20,22 +20,57 @@
 
                         <div class="container1">
                                 <!-- name -->
-                                <label for="name">Name:</label>
-                                <input type="text" autofocus placeholder="Enter your name" required>
+                                <label for="name" >Name:</label>
+                                <input type="text" autofocus placeholder="Enter your name" required >
                         
                                 <!-- email -->
                                 <label for="email">Email: </label>
                                 <input type="email" autofocus placeholder="Enter your email here" required>
                                 
-
                                 <!-- age -->
-                                <label for="age"></label>
-                                <input type="number" autofocus placeholder="Age">
+                                <label for="age">Age <i>(optional)</i></label>
+                                <input type="number" id="age_input" autofocus placeholder="Age" min="0" max="60">
 
                                 <!-- role -->
                                 <label for="">Which option best describes your current role?</label>
 
+
+                                <!-- dropdownmenu -->
+                                <div class="dropdownClass">
+                                        <select name="dropdown" id="dropdown">
+                                                <option disabled selected>Select current role</option>
+                                                <option value="">Student</option>
+                                                <option value="">Full time job</option>
+                                                <option value="">Full time learner</option>
+                                        </select>
+                                </div>
+
+
+
+                                <!-- radio -->
+                                <label for="">Would you recommend freeCodeCamp to a friend?</label>
+                                <label><input type="radio" name="user_recomandation" class="radio_button"  class="radio_label"> Definitly</label>
+                                <label><input type="radio" name="user_recomandation" class="radio_button"> Maybe</label>
+                                <label><input type="radio" name="user_recomandation" class="radio_button"> Not sure</label>
+
+
+
+                                <label for="">Would you recommend freeCodeCamp to a friend?</label>
+                                <!-- checkbox -->
+                                <label for="fed"><input type="checkbox" id="fed">Front end Project</label>
+
+
+
+
+                                <label for="">Any comments or suggestions?</label>
+
                                 <button id="submit">Sumit</button>
+
+
+                                
+
+
+
                         </div>
                 </form>
 
