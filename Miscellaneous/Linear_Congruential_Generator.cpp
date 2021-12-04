@@ -1,3 +1,5 @@
+// https://www.geeksforgeeks.org/pseudo-random-number-generator-prng/
+
 #include <iostream>
 using namespace std;
 
