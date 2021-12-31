@@ -10,9 +10,6 @@ public:
         for(int i=0; i<size; i++) {
                 for(int j=i; j<size; j++) {
                         for(int k = i; k<=j; k++) {
-                                //  cout << nums[k] << " ";
-                                //  int v = sum;
-                                //  int x = nums[k];
                                 sum += nums[k];
                         }
                         //  cout << " : " << sum << endl;
