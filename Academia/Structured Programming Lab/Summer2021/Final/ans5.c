@@ -6,7 +6,6 @@ int main(void){
         int x = 2021, y = 6, z = 3, w = 52;
         myfunc(&x, &y);
         if (x > z){
-                myfunc(&z, &x);
                 myfunc(&x, &w);
                 printf("%d\t%d\t%d\n", x, y, z);
         }
