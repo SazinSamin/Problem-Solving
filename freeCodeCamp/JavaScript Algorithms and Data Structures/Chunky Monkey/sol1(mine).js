@@ -1,7 +1,6 @@
 function chunkArrayInGroups(arr, size) {
         let res = [];
         let curr = [];
-        let j;
         const len = arr.length;
         let dec = size;
         for(let i = 0; i < len; i++) {
