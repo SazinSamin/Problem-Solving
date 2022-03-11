@@ -12,7 +12,7 @@ int main() {
                 }
         }
 
-        printf("\nElements of each row sequentially: \n");
+        printf("\nElements of each column sequentially: \n");
         for(int i=0; i<n; i++) {
                 for(int j=0; j<n; j++) {
                         printf("%d ", array[j][i]);
