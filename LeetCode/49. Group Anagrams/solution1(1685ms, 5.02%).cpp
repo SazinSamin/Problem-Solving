@@ -1,3 +1,8 @@
+// 1. sort the words.
+// 2. find the same anagram indexes.
+// 3. get the words from indexes.
+
+
 class Solution {
 public:
         vector<vector<string>> groupAnagrams(vector<string>& strs) {
