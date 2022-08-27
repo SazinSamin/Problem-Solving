@@ -1,3 +1,10 @@
+// 1. binary search to find the target index
+// 2. if first element match with target then element start from the 0 index of array, else start from the target which got 
+//    from the binary search and go left until non-target element arrive,
+// 3. if last element match with target then element stop at the last index of array, else start from the target which got 
+//    from the binary search and go right until non-target element arrive,
+
+
 class Solution {
 public:
     int binarySearch(vector<int>& nums, int low, int high, int target) {
