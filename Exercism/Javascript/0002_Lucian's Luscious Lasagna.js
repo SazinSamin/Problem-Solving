@@ -1,4 +1,4 @@
-// https://exercism.org/tracks/javascript/exercises/annalyns-infiltration
+// https://exercism.org/tracks/javascript/exercises/hello-world
 
 const PREPARATION_MINUTES_PER_LAYER = 2;
 export const EXPECTED_MINUTES_IN_OVEN = 40;
