@@ -1,3 +1,6 @@
+// https://exercism.org/tracks/javascript/exercises/annalyns-infiltration
+
+
 export function canExecuteFastAttack(knightIsAwake) {
   return !knightIsAwake;
 }
