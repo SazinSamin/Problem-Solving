@@ -1,3 +1,6 @@
+// https://exercism.org/tracks/javascript/exercises/freelancer-rates
+// here the "billable days" are working days
+
 export function dayRate(ratePerHour) {
   return ratePerHour * 8;
 }
