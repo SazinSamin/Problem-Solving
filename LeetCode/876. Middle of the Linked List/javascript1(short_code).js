@@ -1,14 +1,10 @@
-var deleteMiddle = function(head) {
-    if (!head || !head.next) return null;
-
+var middleNode = function(head) {
+    if (head == null ) return null;
+        if(head.next == null) return head;
         let slow = head;
         let fast = head;
-        let prev = null;
-
         while(fast != null && fast.next != null) {
-                [prev, slow, fast] = [slow, slow.next, fast.next.next];
+                [slow, fast] = [slow.next, fast.next.next];
         }
-
-        prev.next = slow.next;
-        return head;
+        return slow;
 };
