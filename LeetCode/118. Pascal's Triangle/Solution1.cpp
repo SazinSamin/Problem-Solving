@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
-
+        
         vector<int> inner;
         vector<vector<int>> outer;
         outer.push_back({1});
@@ -13,8 +13,8 @@ public:
         for(int i = 0; i < numRows - 2; i++) {
             inner.push_back(1);
             last = outer.size() - 1;
-            for(int i = 0; i < outer[last].size() - 1; i++) {
-                inner.push_back({outer[last][i] + outer[last][i+1]});
+            for(int j = 0; j < outer[last].size() - 1; j++) {
+                inner.push_back({outer[last][j] + outer[last][j+1]});
             }
             inner.push_back(1);
             outer.push_back(inner);
